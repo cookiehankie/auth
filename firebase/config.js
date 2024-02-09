@@ -8,13 +8,16 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyC1fJin7rP6jMtzdemmSgGrkoOX67cWTGA",
-  authDomain: "ezout-backend.firebaseapp.com",
-  projectId: "ezout-backend",
-  storageBucket: "ezout-backend.appspot.com",
-  messagingSenderId: "520617196632",
-  appId: "1:520617196632:web:042809a5b11cee2c5c5e2d",
-  measurementId: "G-45G1LER5SS"
+  // Your web app's Firebase configuration here
+  // See https://firebase.google.com/docs/web/setup#add-sdks-initialize
+  apiKey: 'API_KEY',
+  authDomain: 'PROJECT_ID.firebaseapp.com',
+  databaseURL: 'https://PROJECT_ID.firebaseio.com',
+  projectId: 'PROJECT_ID',
+  storageBucket: 'PROJECT_ID.appspot.com',
+  messagingSenderId: 'SENDER_ID',
+  appId: 'APP_ID',
+  measurementId: 'G-MEASUREMENT_ID',
 };
 
 // Initialize Firebase
