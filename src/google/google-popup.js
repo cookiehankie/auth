@@ -5,7 +5,7 @@ import {
   signInWithPopup,
   signOut,
 } from 'firebase/auth';
-import { auth } from '../firebase/config';
+import { auth } from '../../firebase/config';
 
 
 if (window.location.hostname === 'localhost') {
